@@ -43,17 +43,40 @@ const random = [1, 9999, 10, 5, 9];
 
 // map: Mục đích chính: tạo ra mảng mới từ mảng cũ, với mỗi phần tử đã được biến đổi.
 // Luôn trả về một mảng mới có cùng độ dài.
+// const listNumber = [1, 2, 3, 4, 5];
+// const listNumberDouble = listNumber.map((value, index, array) => {
+//     return value * 2;
+// });
+
+// console.log(listNumberDouble);
+
+// // forEach : chạy một đoạn code với từng phần tử 
+// // -> Không trả về mảng mới, giá trị trả về là undefined. (nhu map)
+// listNumber.forEach((value, index, array) => {
+//     listNumber[index] = value * 3;
+// });
+
+// console.log(listNumber);
+
+
+// filter: 
+// const listNumber = [1, 2, 3, 4, 5];
+// const filteredNumber = listNumber.filter((value, index, array) => {
+//     return value > 3;
+// });  // filter (true) -> run ; filter(false) -> skip
+
+// console.log(filteredNumber);
+
+// const listNumber = [1, 2, 3, 4, 5];
+// console.log(listNumber.some((value) => value > 3)); // some return true if co it nhat 1 ptu thoa man
+// console.log(listNumber.every((value) => value > 3));  // every return true if tat ca ptu deu thoa man 
+
+// reduce: gom cac ptu trong mang lai thanh 1
+// reduce ( arrow function(a, b))
 const listNumber = [1, 2, 3, 4, 5];
-const listNumberDouble = listNumber.map((value, index, array) => {
-    return value * 2;
+const totalNumber = listNumber.reduce((previousValue, currentValue) => {
+    console.log(previousValue, currentValue);
+    return previousValue + currentValue;
 });
+console.log(totalNumber);
 
-console.log(listNumberDouble);
-
-// forEach : chạy một đoạn code với từng phần tử 
-// -> Không trả về mảng mới, giá trị trả về là undefined. (nhu map)
-listNumber.forEach((value, index, array) => {
-    listNumber[index] = value * 3;
-});
-
-console.log(listNumber);
