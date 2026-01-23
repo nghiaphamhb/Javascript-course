@@ -2,8 +2,6 @@
 
 This is my basic Javascript Course.
 
-## Now in video 105  🫣
-
 ![javascript](https://user-images.githubusercontent.com/61030079/90903197-e2bc1800-e3cd-11ea-8586-e605b0139c38.gif)
 
 
@@ -52,6 +50,27 @@ This is my basic Javascript Course.
 
 </details>
 
+<details>
+<summary>Chapter 7 : Object</summary>
+
+- 91 , 93 : [Basic object, for in](chapter7/object1.js)
+- 94 -> 99 : [Object.keys / .values / .entries / .assign / .freeze / .seal](chapter7/object2.js)
+- 100 , 101 : [Clone object](chapter7/object3.js)
+- 102 : [keyword 'this'](chapter7/object4.js)
+- 103 , 104 : [Optional chaining, Destructuring object](chapter7/object5.js)
+
+</details>
+
+<details>
+<summary>Chapter 8 : DOM</summary>
+
+- 110 -> 114 : [querySelector, querySelectorAll, getElementsByClassName, getElementsByTagName, getElementById](chapter8/selecting-node.js)
+- 115 ->  118 : [getAttribute, setAttribute, removeAttribute, hasAttribute](chapter8/property-method.js)
+- 119 -> 121 : [textContent, innerText, innerHTML](chapter8/text.js)
+- 122 -> 123 : [class methods](chapter8/class.js)
+
+</details>
+
 
 ## Tasks
 
@@ -60,4 +79,5 @@ This is my basic Javascript Course.
 - 69 -> 71 : [reverse string / reverse word / capitalize string exercises](exercises/array-ex1.js)
 - 82 : [Basic loop exercise](exercises/loop.js)
 - 85 -> 90 : [Array exercises](exercises/array-ex2.js)
+- 105 -> 108 : [Object exercises](exercises/object-ex.js)
 
