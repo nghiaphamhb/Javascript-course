@@ -67,7 +67,9 @@ This is my basic Javascript Course.
 - 110 -> 114 : [querySelector, querySelectorAll, getElementsByClassName, getElementsByTagName, getElementById](chapter8/selecting-node.js)
 - 115 ->  118 : [getAttribute, setAttribute, removeAttribute, hasAttribute](chapter8/property-method.js)
 - 119 -> 121 : [textContent, innerText, innerHTML](chapter8/text.js)
-- 122 -> 123 : [class methods](chapter8/class.js)
+- 122 -> 124 : [class methods, sidebar hide/unhide](chapter8/class.js)
+- 125 -> 129 : [CRUD DOM elements by JS](chapter8/crud.js)
+- 130 -> : [Insert problems](chapter8/insert.js)
 
 </details>
 

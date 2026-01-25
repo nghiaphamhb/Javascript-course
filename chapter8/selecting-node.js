@@ -1,3 +1,10 @@
+// ==== In this file we have ====
+// 1. document.querySelector("");
+// 2. document.querySelectorAll("");
+// 3. document.getElementsByClassName("");
+// 4. document.getElementsByTagName(""); 
+// ==============================
+
 // querySelector trả về DOM's node
 const node1 = document.querySelector("h1");
 const node2 = document.querySelector(".container");

@@ -1,3 +1,10 @@
+// ==== In this file we have ====
+// 1. selector.getAttribute("attribute")
+// 2. selector.setAttribute("attribute", value)
+// 3. selector.removeAttribute("attribute")
+// 4. selector.hasAttribute("attribute")
+// ==============================
+
 // 1. selector.getAttribute("attribute") -> lấy ra giá trị của attribute selector
 // selector: 1 cái
 // attribute -> thuộc tính: href, id, class, src, style
