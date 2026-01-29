@@ -1,9 +1,9 @@
 // ==== In this file we have ====
-// 1. selector.classList.add(nameClass)
-// 2. selector.classList.remove(nameClass)
-// 3. selector.classList.contains(nameClass)
-// 4. selector.classList.toggle(nameClass)
-// 5. selector.className = ""
+// 1. elNode.classList.add(nameClass)
+// 2. elNode.classList.remove(nameClass)
+// 3. elNode.classList.contains(nameClass) -> return Boolean
+// 4. elNode.classList.toggle(nameClass)
+// 5. elNode.className = ""
 // ==============================
 
 // 1. selector.classList.add(nameClass)

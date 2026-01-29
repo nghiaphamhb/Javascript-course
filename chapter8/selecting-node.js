@@ -1,8 +1,8 @@
 // ==== In this file we have ====
-// 1. document.querySelector("");
-// 2. document.querySelectorAll("");
-// 3. document.getElementsByClassName("");
-// 4. document.getElementsByTagName(""); 
+// 1. elNode = document.querySelector("selector");
+// 2. elNode = document.querySelectorAll("selector");
+// 3. elNode = document.getElementsByClassName("className");
+// 4. elNode = document.getElementsByTagName("tagName"); 
 // ==============================
 
 // querySelector trả về DOM's node

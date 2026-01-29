@@ -64,12 +64,15 @@ This is my basic Javascript Course.
 <details>
 <summary>Chapter 8 : DOM</summary>
 
+Những loại node cơ bản: document node, element node, text node, comment node, ...
+
 - 110 -> 114 : [querySelector, querySelectorAll, getElementsByClassName, getElementsByTagName, getElementById](chapter8/selecting-node.js)
 - 115 ->  118 : [getAttribute, setAttribute, removeAttribute, hasAttribute](chapter8/property-method.js)
 - 119 -> 121 : [textContent, innerText, innerHTML](chapter8/text.js)
 - 122 -> 124 : [class methods, sidebar hide/unhide](chapter8/class.js)
 - 125 -> 129 : [CRUD DOM elements by JS](chapter8/crud.js)
-- 130 -> : [Insert problems](chapter8/insert.js)
+- 130 -> 132 : [Insert problems](chapter8/insert.js)
+- 133 -> 135 : [Tranversing DOM](chapter8/traversing.js)
 
 </details>
 
@@ -82,4 +85,5 @@ This is my basic Javascript Course.
 - 82 : [Basic loop exercise](exercises/loop.js)
 - 85 -> 90 : [Array exercises](exercises/array-ex2.js)
 - 105 -> 108 : [Object exercises](exercises/object-ex.js)
+- 136 -> 137 : [Active modal exercises](exercises/modal.js)
 

@@ -1,17 +1,17 @@
 // ==== In this file we have ====
-// 1. document.createElement("")
-// 2. selector.appendChild(child)
-// 3. document.createTextNode("")
-// 4. cloneNode(boolean)
-// 5. hasChildNodes()
+// 1. document.createElement("") -> return elNode
+// 2. elNode.appendChild(childNode)
+// 3. document.createTextNode("text") -> return textNode
+// 4. cloneNode(boolean) -> return elNode
+// 5. hasChildNodes() -> return Boolean
 // ==============================
 
 // thêm xóa sửa trong JS
 // 1. Tạo element trong JS
-// const div = document.createElement("div");
+const div = document.createElement("div");
 
 // 2. Thêm element vào document: selector.appendChild()
-// document.body.appendChild(div);
+document.body.appendChild(div);
 
 // 2+. Bài tập thêm DOM element vào document bằng JS
 const card = document.createElement("div");

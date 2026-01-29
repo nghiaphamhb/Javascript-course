@@ -1,7 +1,7 @@
 // ==== In this file we have ====
-// 1. selector.textContent = ""
-// 2. selector.innerText = ""
-// 3. selector.innerHTML = "<div> </div>"
+// 1. elNode.textContent = ""
+// 2. elNode.innerText = "" (ko dùng cho textNode)
+// 3. elNode.innerHTML = "<div> </div>" (ko dùng cho textNode)
 // ==============================
 
 // 1. textContent : hiển thị nội dung bên trong selector (Không quan tâm CSS)
