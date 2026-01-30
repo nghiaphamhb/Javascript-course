@@ -2,6 +2,8 @@
 // 1. elNode.insertAdjacentText("position","text")
 // 2. elNode.insertAdjacentElement("position", node)
 // 3. elNode.insertAdjacentHTML("position", html)
+// 4. parentNode.insertBefore(newNode, existingNode)
+// 5. parentNode.replaceChild(newnode, oldnode);
 // ==============================
 
 // 1. selector.insertAdjacentText("position","text") -> thêm text theo vị trí 
@@ -31,3 +33,12 @@ const template = `
 `;
 h3.insertAdjacentHTML("afterend", template);
 
+
+// 4. parentNode.insertBefore(newnode, existingnode)
+const ul = document.createElement("ul");
+document.body.insertBefore(ul, h3);
+
+// 5. parentNode.replaceChild(newnode, oldnode)
+const span = document.createElement("span");
+span.textContent = "abc";
+document.body.replaceChild(span, document.createElement("div"));

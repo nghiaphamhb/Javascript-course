@@ -1,3 +1,6 @@
+// Thêm 1 HTML element vào index.html bằng file js này 
+// Triển khai cơ chế: Sau 5s hiển thị modal (khung câu hỏi cho user)
+
 {/* <div class="modal">
       <div class="modal-content">
         <i class="fa fa-times modal-close">X</i>

@@ -71,13 +71,23 @@ Những loại node cơ bản: document node, element node, text node, comment n
 - 119 -> 121 : [textContent, innerText, innerHTML](chapter8/text.js)
 - 122 -> 124 : [class methods, sidebar hide/unhide](chapter8/class.js)
 - 125 -> 129 : [CRUD DOM elements by JS](chapter8/crud.js)
-- 130 -> 132 : [Insert problems](chapter8/insert.js)
+- 130 -> 132, 147, 148(1) : [Insert + replace elements problems](chapter8/insert.js)
 - 133 -> 135 : [Tranversing DOM](chapter8/traversing.js)
+- 140 -> 143 : [Offset, client, window attributes; getBoundingClientRect](chapter8/sizing.js)
+- 144 -> 145 : [Differences between Node List & HTML Collection; bw parentNode & parentElement](chapter8/note.js)
+- 146, 148(2) : [document.title, document.head, ](chapter8/other.js)
+
+</details>
+
+<details>
+<summary>Chapter 9 : Event</summary>
+
+- 150 ->  : [Click event](chapter9/çlick.js)
 
 </details>
 
 
-## Tasks
+## Exercises
 
 - 36 -> 38 : [Function exercises](exercises/ex36_38.js)
 - 49 -> 54 : [Time exercises](exercises/ex49_54.js)
@@ -85,5 +95,6 @@ Những loại node cơ bản: document node, element node, text node, comment n
 - 82 : [Basic loop exercise](exercises/loop.js)
 - 85 -> 90 : [Array exercises](exercises/array-ex2.js)
 - 105 -> 108 : [Object exercises](exercises/object-ex.js)
-- 136 -> 137 : [Active modal exercises](exercises/modal.js)
+- 136 -> 137 : [Active modal exercises](exercises/active-modal/modal.js)
+- 138 -> 139 : [Notification exercises](exercises/notification/notification.js)
 
