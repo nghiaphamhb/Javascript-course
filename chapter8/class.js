@@ -3,7 +3,8 @@
 // 2. elNode.classList.remove(nameClass)
 // 3. elNode.classList.contains(nameClass) -> return Boolean
 // 4. elNode.classList.toggle(nameClass)
-// 5. elNode.className = ""
+// 5. elNode.classList.toggle(nameClass, force)
+// 6. elNode.className = ""
 // ==============================
 
 // 1. selector.classList.add(nameClass)
@@ -22,10 +23,18 @@ console.log(container.classList.contains("container")); // false
 // nếu ko chứa class thì thêm vào
 container.classList.toggle("is-active");
 
-// 5. selector.className -> chuỗi các class của selector
+// 5. elNode.classList.toggle(className, force)
+// force (boolean) -> việc thêm/xóa class phụ thuộc vào giá trị của force (chứ kp lật lại mặt giá trị như bth)
+// true → bắt buộc thêm class
+// false → bắt buộc xóa class
+icon.classList.toggle("fa-caret-up", isOpen);
+// Nếu isOpen === true → thêm class fa-caret-up
+// Nếu isOpen === false → xóa class fa-caret-up
+
+// 6. selector.className -> chuỗi các class của selector
 console.log(container.className);
 container.className = "a b c"; // thay thế các classes 
 
-// 6. Toggle sidebar
+// 7. Toggle sidebar
 const sidebar = document.querySelector(".sidebar");
 sidebar.classList.add("hide");

@@ -103,4 +103,6 @@ Những loại node cơ bản: document node, element node, text node, comment n
 - 159, 160 : [Toggle menu](exercises/toggle-menu/toggle.js)
 - 161 -> 163 : [Tab](exercises/tab/tab.js)
 - 164 -> 166 : [Accordion](exercises/accordion/accordion.js)
-
+- 167, 168 : [Open modal](exercises/open-modal/modal.js)
+- 169 -> 173 : [Light box](exercises/lightbox/lightbox.js)
+- 174, 175 : [Drop down](exercises/dropdown/dropdown.js)

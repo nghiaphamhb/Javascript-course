@@ -4,6 +4,7 @@
 // 3. capturing
 // 4. target && currentTarget
 // 5. e.preventDefault()
+// 6. event.target.matches("className") -> return Boolean
 // ==============================
 
 // 1. addEventListenter
