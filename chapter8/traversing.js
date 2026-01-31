@@ -4,7 +4,7 @@
 // 3. insertAdjacentHtml("position", html)
 // 4. childNodes, children -> các nodes bên trong
 // 5. firstChild, firstElementChild
-// 6. lastChild, firstElementChild
+// 6. lastChild, lastElementChild
 // ==============================
 
 // 1. parentNode, parentElement
@@ -29,5 +29,5 @@ console.log(span.children); //  [<strong>]
 console.log(span.firstChild); // text
 console.log(span.firstElementChild); //  <strong>
 
-// 6. lastChild (includes textNode) & firstElementChild (no include textNode) 
+// 6. lastChild (includes textNode) & lastElementChild (no include textNode) 
 

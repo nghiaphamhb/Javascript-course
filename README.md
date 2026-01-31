@@ -75,26 +75,32 @@ Những loại node cơ bản: document node, element node, text node, comment n
 - 133 -> 135 : [Tranversing DOM](chapter8/traversing.js)
 - 140 -> 143 : [Offset, client, window attributes; getBoundingClientRect](chapter8/sizing.js)
 - 144 -> 145 : [Differences between Node List & HTML Collection; bw parentNode & parentElement](chapter8/note.js)
-- 146, 148(2) : [document.title, document.head, ](chapter8/other.js)
+- 146, 148(2) : [document.title; document.head; convert HTML collection, NodeList to Array](chapter8/other.js)
 
 </details>
 
 <details>
 <summary>Chapter 9 : Event</summary>
 
-- 150 ->  : [Click event](chapter9/çlick.js)
+- 150 -> 154 : [Click event && event methods](chapter9/çlick.js)
+- 157, 158 : [Object.style, Custom attributes](chapter9/objectStyle.js)
 
 </details>
 
 
 ## Exercises
 
-- 36 -> 38 : [Function exercises](exercises/ex36_38.js)
-- 49 -> 54 : [Time exercises](exercises/ex49_54.js)
-- 69 -> 71 : [reverse string / reverse word / capitalize string exercises](exercises/array-ex1.js)
-- 82 : [Basic loop exercise](exercises/loop.js)
-- 85 -> 90 : [Array exercises](exercises/array-ex2.js)
-- 105 -> 108 : [Object exercises](exercises/object-ex.js)
-- 136 -> 137 : [Active modal exercises](exercises/active-modal/modal.js)
-- 138 -> 139 : [Notification exercises](exercises/notification/notification.js)
+- 36 -> 38 : [Function](exercises/ex36_38.js)
+- 49 -> 54 : [Time](exercises/ex49_54.js)
+- 69 -> 71 : [reverse string / reverse word / capitalize string](exercises/array-ex1.js)
+- 82 : [Basic loop](exercises/loop.js)
+- 85 -> 90 : [Array](exercises/array-ex2.js)
+- 105 -> 108 : [Object](exercises/object-ex.js)
+- 136 -> 137 : [Active modal](exercises/active-modal/modal.js)
+- 138 -> 139 : [Notification](exercises/notification/notification.js)
+- 155 : [Background changing color](exercises/background-changing/background.js)
+- 156 : [Counter](exercises/counter/counter.js)
+- 159, 160 : [Toggle menu](exercises/toggle-menu/toggle.js)
+- 161 -> 163 : [Tab](exercises/tab/tab.js)
+- 164 -> 166 : [Accordion](exercises/accordion/accordion.js)
 

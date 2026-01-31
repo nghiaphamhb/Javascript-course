@@ -19,6 +19,7 @@ document.head.appendChild(meta);
 // 3. convert HTML collection, NodeList to Array
 // then we can use it like using an array
 const li = document.getElementsByTagName("li");
+
 // first way:
 // Array.from(HTML collection or NodeList); 
 li.forEach((item) => item);
