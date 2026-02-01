@@ -84,6 +84,8 @@ Những loại node cơ bản: document node, element node, text node, comment n
 
 - 150 -> 154 : [Click event && event methods](chapter9/çlick.js)
 - 157, 158 : [Object.style, Custom attributes](chapter9/objectStyle.js)
+- 176 : [HTML DOM load, Web fully load](chapter9/load.js)
+- 177, 178 : [Mouse events, clientXY, pageXY](chapter9/mouse.js)
 
 </details>
 
