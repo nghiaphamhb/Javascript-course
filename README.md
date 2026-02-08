@@ -8,7 +8,7 @@ This is my basic Javascript Course.
 ## Table of Contents
 
 <details> 
-<summary>Chapter 1 & 2 & 3: Introduction and basics</summary>
+<summary>📥 Chapter 1 & 2 & 3: Introduction and basics</summary>
 
 - 10, 12 : [String methods](chapters1_3/string10_12.js)
 - 14 -> 17 : [Number methods](chapters1_3/number14_17.js)
@@ -21,7 +21,7 @@ This is my basic Javascript Course.
 </details>
 
 <details> 
-<summary>Chapter 4 : Functions</summary>
+<summary>🔫 Chapter 4 : Functions</summary>
 
 - 32 : global scope & function scope
 - 33 : block scope; `var` → global scope (hoisted)
@@ -31,7 +31,7 @@ This is my basic Javascript Course.
 </details>
 
 <details>
-<summary>Chapter 5 : Time</summary>
+<summary>⏳ Chapter 5 : Time</summary>
 
 - 42 -> 46 : [Date](chapter5/date42_46.js)
 - 48 : [setTimeout & setInterval](chapter5/date48.js)
@@ -39,7 +39,7 @@ This is my basic Javascript Course.
 </details>
 
 <details>
-<summary>Chapter 6 : Array</summary>
+<summary>🔶 Chapter 6 : Array</summary>
 
 - 55 -> 57 : [Basic methods](chapter6/array.js)
 - 58 -> 68 : [methods: slice, splice, sort, find, findIndex, map, forEach, filter, some/every, reduce](chapter6/array2.js)
@@ -51,7 +51,7 @@ This is my basic Javascript Course.
 </details>
 
 <details>
-<summary>Chapter 7 : Object</summary>
+<summary>🌎 Chapter 7 : Object</summary>
 
 - 91 , 93 : [Basic object, for in](chapter7/object1.js)
 - 94 -> 99 : [Object.keys / .values / .entries / .assign / .freeze / .seal](chapter7/object2.js)
@@ -62,25 +62,25 @@ This is my basic Javascript Course.
 </details>
 
 <details>
-<summary>Chapter 8 : DOM</summary>
+<summary>🌳 Chapter 8 : DOM</summary>
 
-Những loại node cơ bản: document node, element node, text node, comment node, ...
+Basic types of node: document node, element node, text node, comment node, ...
 
-- 110 -> 114 : [querySelector, querySelectorAll, getElementsByClassName, getElementsByTagName, getElementById](chapter8/selecting-node.js)
-- 115 ->  118 : [getAttribute, setAttribute, removeAttribute, hasAttribute](chapter8/property-method.js)
-- 119 -> 121 : [textContent, innerText, innerHTML](chapter8/text.js)
+- 110 -> 114 : [Get node element](chapter8/selecting-node.js)
+- 115 ->  118 : [Get & set element's attributes](chapter8/property-method.js)
+- 119 -> 121 : [Element's content](chapter8/text.js)
 - 122 -> 124 : [class methods, sidebar hide/unhide](chapter8/class.js)
 - 125 -> 129 : [CRUD DOM elements by JS](chapter8/crud.js)
 - 130 -> 132, 147, 148(1) : [Insert + replace elements problems](chapter8/insert.js)
 - 133 -> 135 : [Tranversing DOM](chapter8/traversing.js)
-- 140 -> 143 : [Offset, client, window attributes; getBoundingClientRect](chapter8/sizing.js)
+- 140 -> 143 : [Element & window Sizing](chapter8/sizing.js)
 - 144 -> 145 : [Differences between Node List & HTML Collection; bw parentNode & parentElement](chapter8/note.js)
 - 146, 148(2) : [document.title; document.head; convert HTML collection, NodeList to Array](chapter8/other.js)
 
 </details>
 
 <details>
-<summary>Chapter 9 : Event</summary>
+<summary>🎆 Chapter 9 : Event</summary>
 
 - 150 -> 154 : [Click event && event methods](chapter9/çlick.js)
 - 157, 158 : [Object.style, Custom attributes](chapter9/objectStyle.js)
@@ -108,3 +108,5 @@ Những loại node cơ bản: document node, element node, text node, comment n
 - 167, 168 : [Open modal](exercises/open-modal/modal.js)
 - 169 -> 173 : [Light box](exercises/lightbox/lightbox.js)
 - 174, 175 : [Drop down](exercises/dropdown/dropdown.js)
+- 179 -> 182: [Tooltip](exercises/tooltip/tooltip.js)
+- 183, 184: [Link hover](exercises/link-hover/link-hover.js)
