@@ -110,3 +110,4 @@ Basic types of node: document node, element node, text node, comment node, ...
 - 174, 175 : [Drop down](exercises/dropdown/dropdown.js)
 - 179 -> 182: [Tooltip](exercises/tooltip/tooltip.js)
 - 183, 184: [Link hover](exercises/link-hover/link-hover.js)
+- 185 -> 189: [Image hover](exercises/image-zoom-hover/zoom.js)
